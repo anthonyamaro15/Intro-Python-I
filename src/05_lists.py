@@ -13,8 +13,11 @@ x.append(4)
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
 # YOUR CODE HERE
-x = x + y
-# print(x)
+# x = x + y
+for i in y:
+    x.append(i)
+
+print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE
@@ -24,15 +27,15 @@ x = x + y
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
 # YOUR CODE HERE
-x[5] = 99
-print(x)
+# x[5] = 99
+# print(x)
 
 # Print the length of list x
 # YOUR CODE HERE
-print(len(x))
+# print(len(x))
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
 
-for elem in x:
-    print(elem * 1000)
+# for elem in x:
+#  print(elem * 1000)
