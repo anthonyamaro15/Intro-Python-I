@@ -4,9 +4,18 @@
 
 # Read a number from the keyboard
 num = input("Enter a number: ")
-num = int(num)
+value = int(num)
 
 # Print out "Even!" if the number is even. Otherwise print "Odd"
 
-# YOUR CODE HERE
 
+def checker(num):
+    if (num % 2) == 0:
+        print('even')
+    else:
+        print('Odd')
+
+
+checker(value)
+
+# YOUR CODE HERE
